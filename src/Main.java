@@ -15,7 +15,7 @@ public class Main {
         if (args.length >= 1){
             portnumber = Integer.parseInt(args[0]);
         }
-        // Create server side socket k
+        // Create server side socket kk
         try {
             server = new ServerSocket(portnumber);
         } catch (IOException ie){
